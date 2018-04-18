@@ -15,6 +15,7 @@ echo "<?php\n";
 use yii\helpers\Html;
 use <?= $generator->indexWidgetType === 'grid' ? "yii\\grid\\GridView" : "yii\\widgets\\ListView" ?>;
 <?= $generator->enablePjax ? 'use yii\widgets\Pjax;' : '' ?>
+use yii\helpers\Url;
 
 /* @var $this yii\web\View */
 <?= !empty($generator->searchModelClass) ? "/* @var \$searchModel " . ltrim($generator->searchModelClass, '\\') . " */\n" : '' ?>
@@ -32,7 +33,7 @@ $this->params['breadcrumbs'][] = $this->title;
 <?php endif; ?>
 
     <p>
-        <?= "<?= " ?>Html::a(<?= $generator->generateString('Create ' . Inflector::camel2words(StringHelper::basename($generator->modelClass))) ?>, 'null', ['value' => 'create', 'title' => 'Create', 'class' => 'showModalButton btn btn-success']) ?>
+        <?= "<?= " ?>Html::a(<?= $generator->generateString('Create ' . Inflector::camel2words(StringHelper::basename($generator->modelClass))) ?>, null, ['value' => Url::to(['create']), 'title' => 'Create', 'class' => 'showModalButton btn btn-success']) ?>
     </p>
 
 <?php if ($generator->indexWidgetType === 'grid'): ?>
@@ -77,3 +78,5 @@ if (($tableSchema = $generator->getTableSchema()) === false) {
 <?php endif; ?>
 <?= $generator->enablePjax ? "    <?php Pjax::end(); ?>\n" : '' ?>
 </div>
+
+<?= "<?= " ?>\chaofei\ajaxmodal\AjaxModalWidget::widget() ?>

@@ -36,7 +36,7 @@ class ActionColumn extends \yii\grid\ActionColumn
                     'class' => 'showModalButton',
                 ], $additionalOptions, $this->buttonOptions);
                 $icon = Html::tag('span', '', ['class' => "glyphicon glyphicon-$iconName"]);
-                return Html::a($icon, $url, $options);
+                return Html::a($icon, null, $options);
             };
         }
     }
