@@ -18,6 +18,7 @@
             "homepage": "http://www.dcfei.win/"
         }
     ],
+    "minimum-stability": "dev",
     "require": {},
     "autoload": {
         "psr-4": {
