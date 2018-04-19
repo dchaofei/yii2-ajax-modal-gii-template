@@ -21,7 +21,8 @@ composer require dchaofei/yii2-ajaxmodal:dev-master
         ]
     ],
 ```
+- 之后使用 gii 生成 curd,模板选择 ajax-modal
+![](https://raw.githubusercontent.com/dchaofei/images/master/yii2-ajaxmodal/operate.png)
 
-- 之后使用 gii 生成 curd 模板选择 ajax-modal
-
-## 示例
+## 示例图片
+![](https://raw.githubusercontent.com/dchaofei/images/master/yii2-ajaxmodal/example.gif)

@@ -8,7 +8,7 @@
         "ajax",
         "modal"
     ],
-    "homepage": "https://github.com/kartik-v/yii2-grid",
+    "homepage": "https://github.com/dchaofei/yii2-ajaxmodal",
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
     "authors": [
