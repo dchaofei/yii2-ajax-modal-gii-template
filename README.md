@@ -1,5 +1,5 @@
 # yii2-ajax-modal-gii-template
-
+## 让你的 Yii2 应用后台使用模态框吧。
 ## 使用方法
 - 安装
 ```bash
