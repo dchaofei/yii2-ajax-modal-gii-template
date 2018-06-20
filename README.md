@@ -3,7 +3,7 @@
 ## 使用方法
 - 安装
 ```bash
-composer require dchaofei/yii2-ajaxmodal:dev-master
+composer require caohui123/yii2-ajaxmodal:dev-master
 ```
 - 配置
 ```php
