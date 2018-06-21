@@ -19,7 +19,7 @@
             "homepage": "http://www.caohui.tk/"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {
     },
     "require-dev": {
