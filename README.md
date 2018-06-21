@@ -5,6 +5,12 @@
 ```bash
 composer require caohui123/yii2-ajaxmodal:dev-master
 ```
+
+```json
+"require-dev": {
+        "caohui123/yii2-ajaxmodal": "dev-master"
+ },
+```
 - 配置
 ```php
 'modules' => [
