@@ -1,6 +1,7 @@
 {
     "name": "caohui123/yii2-ajaxmodal",
     "description": "Yii 2 ajax modal gii template.",
+    "version": "1.0.0",
     "keywords": [
         "yii2",
         "extension",
