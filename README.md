@@ -14,7 +14,7 @@ composer require caohui123/yii2-ajaxmodal:dev-master
                 'crud' => [
                     'class' => 'yii\gii\generators\crud\Generator',
                     'templates' => [
-                        'ajax-modal' => '@vendor/dchaofei/yii2-ajaxmodal/gii-template/curd/default',
+                        'ajax-modal' => '@vendor/caohui123/yii2-ajaxmodal/gii-template/curd/default',
                     ]
                 ]
             ],
