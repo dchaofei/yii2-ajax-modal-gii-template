@@ -22,11 +22,10 @@
     "require": {
     },
     "require-dev": {
-        "dchaofei/yii2-ajaxmodal": "dev-master"
     },
     "autoload": {
         "psr-4": {
-            "chaofei\\ajaxmodal\\": ""
+            "caohui123\\ajaxmodal\\": ""
         }
     }
 }

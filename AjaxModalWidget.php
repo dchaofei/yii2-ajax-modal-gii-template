@@ -1,5 +1,5 @@
 <?php
-namespace chaofei\ajaxmodal;
+namespace caohui123\ajaxmodal;
 
 use yii\base\Widget;
 
