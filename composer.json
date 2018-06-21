@@ -19,6 +19,7 @@
         }
     ],
     "minimum-stability": "dev",
+    "require": {},
     "require-dev": {
         "dchaofei/yii2-ajaxmodal": "dev-master"
     },
